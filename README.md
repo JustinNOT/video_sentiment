@@ -47,23 +47,13 @@ A three-stream model that tracks sentiment **over time** in a video clip using t
 
 #### 2️⃣ Soundtrack Model
 - **Goal**: Predict **valence/arousal (V/A)** values every 0.5s across 30s clip segments
-<<<<<<< HEAD
 - **Model**: Random Forest Regression model 
-- **Dataset**: [DEAM / EmoMusic Dataset](https://cvml.unige.ch/databases/DEAM/)
+- **Dataset**: [DEAM / EmoMusic Dataset](https://giktcvml.unige.ch/databases/DEAM/)
 - **Input**: 15s–45s audio snippet
 - **Output**: V/A pair every 0.5s
 - **Performance**: 
   - **MSE Average**: 0.0280
   - **Status**: Fully trained and functioning well
-=======
-- **Model**: Random Forest Regression 
-- **Dataset**: [DEAM / EmoMusic Dataset](https://github.com/metalbubble/DEAM)
-- **Input**: 15s–45s long audio snippet
-- **Output**: V/A pair every 0.5s
-- **Performance**: 
-  - **MSE**: 0.0280 for V/A
-  - Status: Functional Prototype 
->>>>>>> bfa17e71ecc2f9f77da3d93d61e5f801dd465e5f
 
 #### 3️⃣ Image Model (Development Paused)
 - **Components**:
